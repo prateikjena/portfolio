@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font: 600 16px/18px "Open Sans", sans-serif;
+  background: url("img.png") no-repeat center;
+  background-size: cover;
+  background-color: #cccccc;
+}
+nav {
+  background: transparent;
+  box-shadow: 0 0 0 0;
+}
+.nav-links {
+  margin-left: 350px;
+}
+.brand-logo {
+  margin-left: 50px;
+  font-size: 40px;
+}
+nav ul li:hover {
+  background-color: #1ad1ff;
+}
+.upper-center {
+  text-align: center;
+}
+.nav-links-a {
+  margin-right: 90px;
+}
+.btn {
+  border-radius: 50px;
+  background-color: #1ad1ff;
+}
+.form-container {
+  display: flex;
+  align-items: center;
+}
+.form-container input {
+  vertical-align: middle;
+  margin: 5px 5px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+.input-container {
+  display: flex;
+  width: 50%;
+  margin-bottom: 15px;
+}
+::placeholder {
+  color: black;
+  padding: 3px;
+}
+/* Style the form icons */
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+/* Style the input fields */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+.link {
+  text-decoration: none;
+  -webkit-text-fill-color: #1ad1ff;
+  font-weight: bolder;
+}
+.main-text {
+  font-size: 50px;
+}
+.center-text {
+  margin-top: 15%;
+  text-align: center;
+  color: rgba(131, 121, 121, 0.938);
+}
+.main {
+  color: #1ad1ff;
+  font-weight: bolder;
+}
