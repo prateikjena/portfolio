@@ -1,3 +1,3 @@
 # portfolio
 
-# Visit on http://prateekjena.me
+# Visit on http://prateikjena.github.io
